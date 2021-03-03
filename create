@@ -12,11 +12,11 @@ import self reliance
 
 // YOU WILL RIDE FAST AT NIGHT NOTHING CAN CATCH YOU 
 NOTHING CAN TOUCH YOU YOU WILL NEVER DIE YOU WILL FLY 
-YOU WILL SURF YOU WILL RIDE RIDE RIDE YOUR BASSHEART THROBS 
+YOU WILL SURF YOU WILL RIDE RIDE RIDE YOUR BASSHEART THROBBING 
 THE GOOD WILD BLOOD THE FLOWING HOT BLOOD THE SPRING 
 OF ELECTRICITY IN YOUR SPINE YOU WILL BE PUSHED YOU WILL BE FLOATING 
 YOU WILL SEE ALL THE BEAUTY AROUND YOU 
-YOU WILL LOOK INTO SOMEBODYS EYES AND YOU WILL SEE THEM 
+YOU WILL LOOK INTO SOMEONES EYES AND YOU WILL SEE THEM 
 YOU WILL DANCE YOU WILL RIDE IT 
 FASTER FASTER HARDER HARDER YOU ARE INVINCEBLE 
 YOU FINALLY GET IT YOU SEE IT ALL YOU WILL NEVER DIE 
@@ -27,10 +27,10 @@ DONT TOUCH HER DONT TOUCH THE PATIENT, MOVE
     def push(self, data):
         self.data.append(data)
 		Sun will return to its usual shape 
-		on January 31. The last lunar month 
+		on January 31th. The last lunar month 
 		will bring the roving Moon into alignment 
 		with Neptune on the second month of the new year. 
-		Darkness has setteled. 
+		Darkness has settled. 
 
    def is_empty(self):
         return self.head == self.tail + 1
@@ -38,28 +38,19 @@ DONT TOUCH HER DONT TOUCH THE PATIENT, MOVE
 		ONE GOOD THING PER DAY IS ENOUGH. 
 		Like going out to buy milk and cigarettes. 
 		Like watering your plants.
-		Like accepting your eyes swallowing up 
+		Like accepting your eyes swell up 
 		when you try forcing them open, 
-		accepting them turning red and itchy, 
+		accept them turning red and itchy, 
 		turning foggy and infected, turning blind 
 		turning black turning moldy and blistered 
-		turning milky turning into exuding wounds a
+		turning milky turning into exuding wounds 
 		after that long, breathless dive 
 		into your own warm shit again. 
 		Remind yourself, that you won’t care.
 
-    def pop(self):
-        ret = self.data[self.head]
-        self.head = self.head + 1
-        return ret
 
     def count(self):
         return self.tail - self.head
-
-    def print(self):
-        print(self.data)
-        print(“**************”)
-        print(self.data[self.head : self.tail])
 
 
 class my_node:
@@ -124,7 +115,7 @@ def get_leftMost(root):
 		The PATIENT will lay down and the PATIENT will sink.
 
 		The PATIENT will once again 
-		be cutting tomato’s in half and think 
+		be cutting tomatoes in half and think 
 		this is how you would do it.
 
 		The PATIENT will once again 
